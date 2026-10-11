@@ -1,0 +1,753 @@
+[
+    {
+        "id": "world_1_1",
+        "worldId": "world_1",
+        "number": 1,
+        "name": "Array Basics",
+        "concept": "Arrays",
+        "difficulty": "Easy",
+        "questStory": "Learn the basics of arrays.",
+        "questObjective": "Given an array of integers <code>arr</code>, return the first element of the array.<br/><br/><b>Example 1:</b><br/>Input: arr = [1, 2, 3]<br/>Output: 1",
+        "questControls": "get(index)",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] arr) {\n        // Your code here\n        return arr[0];\n    }\n}",
+        "initialCodePython": "def solve(arr):\n    # Your code here\n    return arr[0]",
+        "initialCodeC": "int solve(int* arr, int size) {\n    // Your code here\n    return arr[0];\n}",
+        "testCasesJson": "{\"input\":\"[1, 2, 3]\", \"output\":\"1\"}",
+        "hints": [
+            "Remember arrays are 0-indexed in most languages.",
+            "Access the first element using index 0."
+        ]
+    },
+    {
+        "id": "world_1_2",
+        "worldId": "world_1",
+        "number": 2,
+        "name": "Array Sum",
+        "concept": "Arrays",
+        "difficulty": "Easy",
+        "questStory": "Sum all elements.",
+        "questObjective": "Given an array <code>arr</code>, return the sum of all elements.",
+        "questControls": "loop, accumulate",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] arr) {\n        int sum = 0;\n        return sum;\n    }\n}",
+        "initialCodePython": "def solve(arr):\n    return sum(arr)",
+        "initialCodeC": "int solve(int* arr, int size) {\n    int sum = 0;\n    return sum;\n}",
+        "testCasesJson": "{\"input\":\"[1, 2, 3, 4]\", \"output\":\"10\"}",
+        "hints": [
+            "Use a for-loop to iterate through each element.",
+            "Keep a running total in a variable initialized to 0."
+        ]
+    },
+    {
+        "id": "world_1_3",
+        "worldId": "world_1",
+        "number": 3,
+        "name": "Find Maximum",
+        "concept": "Arrays",
+        "difficulty": "Easy",
+        "questStory": "Find the largest element.",
+        "questObjective": "Return the largest integer in the array <code>arr</code>.",
+        "questControls": "loop, condition",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] arr) {\n        return 0;\n    }\n}",
+        "initialCodePython": "def solve(arr):\n    return max(arr)",
+        "initialCodeC": "int solve(int* arr, int size) {\n    return 0;\n}",
+        "testCasesJson": "{\"input\":\"[5, 1, 9, 3]\", \"output\":\"9\"}",
+        "hints": [
+            "Initialize a max_val variable with the first element.",
+            "Iterate and update max_val if the current element is larger."
+        ]
+    },
+    {
+        "id": "world_1_4",
+        "worldId": "world_1",
+        "number": 4,
+        "name": "Reverse Array",
+        "concept": "Arrays",
+        "difficulty": "Medium",
+        "questStory": "Reverse an array in-place.",
+        "questObjective": "Write a function that reverses an array of integers in-place.",
+        "questControls": "reverse(), pointers",
+        "initialCodeJava": "class Solution {\n    public void solve(int[] arr) {\n        // Your code here\n    }\n}",
+        "initialCodePython": "def solve(arr):\n    pass",
+        "initialCodeC": "void solve(int* arr, int size) {\n    // Your code here\n}",
+        "testCasesJson": "{\"input\":\"[1, 2, 3]\", \"output\":\"[3, 2, 1]\"}",
+        "hints": [
+            "Use two pointers, one at the beginning and one at the end.",
+            "Swap the elements at the two pointers and move them towards the center."
+        ]
+    },
+    {
+        "id": "world_1_5",
+        "worldId": "world_1",
+        "number": 5,
+        "name": "Array Challenge 5",
+        "concept": "Arrays",
+        "difficulty": "Medium",
+        "questStory": "Array logic challenge 5.",
+        "questObjective": "Count occurrences of a specific element or transform the array.",
+        "questControls": "loops, hash maps",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] arr) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(arr):\n    return 1",
+        "initialCodeC": "int solve(int* arr, int size) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Try iterating over the array.",
+            "Consider the time complexity of your approach."
+        ]
+    },
+    {
+        "id": "world_1_6",
+        "worldId": "world_1",
+        "number": 6,
+        "name": "Array Challenge 6",
+        "concept": "Arrays",
+        "difficulty": "Medium",
+        "questStory": "Array logic challenge 6.",
+        "questObjective": "Count occurrences of a specific element or transform the array.",
+        "questControls": "loops, hash maps",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] arr) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(arr):\n    return 1",
+        "initialCodeC": "int solve(int* arr, int size) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Try iterating over the array.",
+            "Consider the time complexity of your approach."
+        ]
+    },
+    {
+        "id": "world_1_7",
+        "worldId": "world_1",
+        "number": 7,
+        "name": "Array Challenge 7",
+        "concept": "Arrays",
+        "difficulty": "Medium",
+        "questStory": "Array logic challenge 7.",
+        "questObjective": "Count occurrences of a specific element or transform the array.",
+        "questControls": "loops, hash maps",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] arr) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(arr):\n    return 1",
+        "initialCodeC": "int solve(int* arr, int size) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Try iterating over the array.",
+            "Consider the time complexity of your approach."
+        ]
+    },
+    {
+        "id": "world_1_8",
+        "worldId": "world_1",
+        "number": 8,
+        "name": "Array Challenge 8",
+        "concept": "Arrays",
+        "difficulty": "Medium",
+        "questStory": "Array logic challenge 8.",
+        "questObjective": "Count occurrences of a specific element or transform the array.",
+        "questControls": "loops, hash maps",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] arr) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(arr):\n    return 1",
+        "initialCodeC": "int solve(int* arr, int size) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Try iterating over the array.",
+            "Consider the time complexity of your approach."
+        ]
+    },
+    {
+        "id": "world_1_9",
+        "worldId": "world_1",
+        "number": 9,
+        "name": "Array Challenge 9",
+        "concept": "Arrays",
+        "difficulty": "Medium",
+        "questStory": "Array logic challenge 9.",
+        "questObjective": "Count occurrences of a specific element or transform the array.",
+        "questControls": "loops, hash maps",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] arr) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(arr):\n    return 1",
+        "initialCodeC": "int solve(int* arr, int size) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Try iterating over the array.",
+            "Consider the time complexity of your approach."
+        ]
+    },
+    {
+        "id": "world_1_10",
+        "worldId": "world_1",
+        "number": 10,
+        "name": "Array Challenge 10",
+        "concept": "Arrays",
+        "difficulty": "Medium",
+        "questStory": "Array logic challenge 10.",
+        "questObjective": "Count occurrences of a specific element or transform the array.",
+        "questControls": "loops, hash maps",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] arr) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(arr):\n    return 1",
+        "initialCodeC": "int solve(int* arr, int size) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Try iterating over the array.",
+            "Consider the time complexity of your approach."
+        ]
+    },
+    {
+        "id": "world_2_1",
+        "worldId": "world_2",
+        "number": 1,
+        "name": "Head Node",
+        "concept": "LinkedList",
+        "difficulty": "Easy",
+        "questStory": "Access the head.",
+        "questObjective": "Return the value of the head node of a given linked list.",
+        "questControls": "head.val",
+        "initialCodeJava": "class Solution {\n    public int solve(ListNode head) {\n        return head.val;\n    }\n}",
+        "initialCodePython": "def solve(head):\n    return head.val",
+        "initialCodeC": "int solve(struct ListNode* head) {\n    return head->val;\n}",
+        "testCasesJson": "{\"input\":\"[10, 20]\", \"output\":\"10\"}",
+        "hints": [
+            "The head parameter points to the first node.",
+            "Use the dot or arrow operator to access the value property."
+        ]
+    },
+    {
+        "id": "world_2_2",
+        "worldId": "world_2",
+        "number": 2,
+        "name": "List Length",
+        "concept": "LinkedList",
+        "difficulty": "Easy",
+        "questStory": "Count the nodes.",
+        "questObjective": "Traverse the linked list to find its length.",
+        "questControls": "node.next",
+        "initialCodeJava": "class Solution {\n    public int solve(ListNode head) {\n        int count = 0;\n        return count;\n    }\n}",
+        "initialCodePython": "def solve(head):\n    count = 0\n    return count",
+        "initialCodeC": "int solve(struct ListNode* head) {\n    int count = 0;\n    return count;\n}",
+        "testCasesJson": "{\"input\":\"[1, 2, 3]\", \"output\":\"3\"}",
+        "hints": [
+            "Use a while loop to traverse as long as the current node is not null.",
+            "Increment a counter in each iteration."
+        ]
+    },
+    {
+        "id": "world_2_3",
+        "worldId": "world_2",
+        "number": 3,
+        "name": "List Traversal 3",
+        "concept": "LinkedList",
+        "difficulty": "Easy",
+        "questStory": "Traverse and modify list 3.",
+        "questObjective": "Find a specific node value or modify pointers.",
+        "questControls": "node.next",
+        "initialCodeJava": "class Solution {\n    public int solve(ListNode head) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(head):\n    return 1",
+        "initialCodeC": "int solve(struct ListNode* head) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Remember to handle null inputs."
+        ]
+    },
+    {
+        "id": "world_2_4",
+        "worldId": "world_2",
+        "number": 4,
+        "name": "List Traversal 4",
+        "concept": "LinkedList",
+        "difficulty": "Easy",
+        "questStory": "Traverse and modify list 4.",
+        "questObjective": "Find a specific node value or modify pointers.",
+        "questControls": "node.next",
+        "initialCodeJava": "class Solution {\n    public int solve(ListNode head) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(head):\n    return 1",
+        "initialCodeC": "int solve(struct ListNode* head) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Remember to handle null inputs."
+        ]
+    },
+    {
+        "id": "world_2_5",
+        "worldId": "world_2",
+        "number": 5,
+        "name": "Reverse Linked List",
+        "concept": "LinkedList",
+        "difficulty": "Easy",
+        "questStory": "Reverse a singly linked list.",
+        "questObjective": "Given the <code>head</code> of a singly linked list, reverse the list, and return the reversed list.",
+        "questControls": "node.next",
+        "initialCodeJava": "class Solution {\n    public ListNode solve(ListNode head) {\n        // Your code here\n        return null;\n    }\n}",
+        "initialCodePython": "def solve(head):\n    return None",
+        "initialCodeC": "struct ListNode* solve(struct ListNode* head) {\n    return NULL;\n}",
+        "testCasesJson": "{\"input\":\"[1,2,3,4,5]\", \"output\":\"[5,4,3,2,1]\"}",
+        "hints": [
+            "You need to keep track of previous, current, and next nodes.",
+            "Update current.next to point to previous, then step forward."
+        ]
+    },
+    {
+        "id": "world_2_6",
+        "worldId": "world_2",
+        "number": 6,
+        "name": "Advanced List 6",
+        "concept": "LinkedList",
+        "difficulty": "Medium",
+        "questStory": "Advanced list challenge 6.",
+        "questObjective": "Detect cycles, find middle nodes, or merge lists.",
+        "questControls": "two pointers",
+        "initialCodeJava": "class Solution {\n    public int solve(ListNode head) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(head):\n    return 1",
+        "initialCodeC": "int solve(struct ListNode* head) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Try the slow and fast pointer technique (Tortoise and Hare)."
+        ]
+    },
+    {
+        "id": "world_2_7",
+        "worldId": "world_2",
+        "number": 7,
+        "name": "Advanced List 7",
+        "concept": "LinkedList",
+        "difficulty": "Medium",
+        "questStory": "Advanced list challenge 7.",
+        "questObjective": "Detect cycles, find middle nodes, or merge lists.",
+        "questControls": "two pointers",
+        "initialCodeJava": "class Solution {\n    public int solve(ListNode head) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(head):\n    return 1",
+        "initialCodeC": "int solve(struct ListNode* head) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Try the slow and fast pointer technique (Tortoise and Hare)."
+        ]
+    },
+    {
+        "id": "world_2_8",
+        "worldId": "world_2",
+        "number": 8,
+        "name": "Advanced List 8",
+        "concept": "LinkedList",
+        "difficulty": "Medium",
+        "questStory": "Advanced list challenge 8.",
+        "questObjective": "Detect cycles, find middle nodes, or merge lists.",
+        "questControls": "two pointers",
+        "initialCodeJava": "class Solution {\n    public int solve(ListNode head) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(head):\n    return 1",
+        "initialCodeC": "int solve(struct ListNode* head) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Try the slow and fast pointer technique (Tortoise and Hare)."
+        ]
+    },
+    {
+        "id": "world_2_9",
+        "worldId": "world_2",
+        "number": 9,
+        "name": "Advanced List 9",
+        "concept": "LinkedList",
+        "difficulty": "Medium",
+        "questStory": "Advanced list challenge 9.",
+        "questObjective": "Detect cycles, find middle nodes, or merge lists.",
+        "questControls": "two pointers",
+        "initialCodeJava": "class Solution {\n    public int solve(ListNode head) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(head):\n    return 1",
+        "initialCodeC": "int solve(struct ListNode* head) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Try the slow and fast pointer technique (Tortoise and Hare)."
+        ]
+    },
+    {
+        "id": "world_2_10",
+        "worldId": "world_2",
+        "number": 10,
+        "name": "Advanced List 10",
+        "concept": "LinkedList",
+        "difficulty": "Medium",
+        "questStory": "Advanced list challenge 10.",
+        "questObjective": "Detect cycles, find middle nodes, or merge lists.",
+        "questControls": "two pointers",
+        "initialCodeJava": "class Solution {\n    public int solve(ListNode head) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(head):\n    return 1",
+        "initialCodeC": "int solve(struct ListNode* head) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Try the slow and fast pointer technique (Tortoise and Hare)."
+        ]
+    },
+    {
+        "id": "world_3_1",
+        "worldId": "world_3",
+        "number": 1,
+        "name": "The Alchemist's Challenge",
+        "concept": "Stack",
+        "difficulty": "Easy",
+        "questStory": "A Stack follows the Last-In-First-Out (LIFO) principle.",
+        "questObjective": "Push the items 'scroll', 'gold_idol', and 'sapphire' into the stack such that 'sapphire' is the top element.",
+        "questControls": "push(item), pop(), peek()",
+        "initialCodeJava": "class Solution {\n    public int solve() {\n        // push(\"scroll\");\n        return 0;\n    }\n}",
+        "initialCodePython": "def solve():\n    pass",
+        "initialCodeC": "int solve() {\n    return 0;\n}",
+        "testCasesJson": "{\"target\":\"SAPPHIRE\", \"items\":[\"scroll\",\"gold_idol\",\"sapphire\"]}",
+        "hints": [
+            "The stack follows LIFO (Last In First Out).",
+            "First push('scroll'), then push('gold_idol'), and finally push('sapphire')."
+        ]
+    },
+    {
+        "id": "world_3_2",
+        "worldId": "world_3",
+        "number": 2,
+        "name": "Valid Parentheses",
+        "concept": "Stack",
+        "difficulty": "Medium",
+        "questStory": "Check for balanced brackets.",
+        "questObjective": "Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.",
+        "questControls": "stack.push(), stack.pop()",
+        "initialCodeJava": "class Solution {\n    public boolean solve(String s) {\n        return false;\n    }\n}",
+        "initialCodePython": "def solve(s):\n    return False",
+        "initialCodeC": "bool solve(char* s) {\n    return false;\n}",
+        "testCasesJson": "{\"input\":\"()[]{}\", \"output\":\"true\"}",
+        "hints": [
+            "Use a stack to keep track of opening brackets.",
+            "When you encounter a closing bracket, pop from the stack and check if it matches."
+        ]
+    },
+    {
+        "id": "world_3_3",
+        "worldId": "world_3",
+        "number": 3,
+        "name": "Queue Operations",
+        "concept": "Queue",
+        "difficulty": "Easy",
+        "questStory": "Implement basic queue operations.",
+        "questObjective": "Perform the given queue operations and ensure the queue behaves as FIFO.",
+        "questControls": "enqueue(), dequeue()",
+        "initialCodeJava": "class Solution {\n    public void solve() {\n        // enqueue(1);\n    }\n}",
+        "initialCodePython": "def solve():\n    pass",
+        "initialCodeC": "void solve() {\n}",
+        "testCasesJson": "{\"input\":\"\", \"output\":\"\"}",
+        "hints": [
+            "A queue follows FIFO. Enqueue adds to back, dequeue removes from front."
+        ]
+    },
+    {
+        "id": "world_3_4",
+        "worldId": "world_3",
+        "number": 4,
+        "name": "Stack Challenge 4",
+        "concept": "Stack",
+        "difficulty": "Medium",
+        "questStory": "Master the Stack.",
+        "questObjective": "Use properties of LIFO/FIFO to solve.",
+        "questControls": "push/pop or enqueue/dequeue",
+        "initialCodeJava": "class Solution {\n    public int solve() {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve():\n    return 1",
+        "initialCodeC": "int solve() {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Consider edge cases like empty stacks or queues.",
+            "Think about auxiliary data structures."
+        ]
+    },
+    {
+        "id": "world_3_5",
+        "worldId": "world_3",
+        "number": 5,
+        "name": "Stack Challenge 5",
+        "concept": "Stack",
+        "difficulty": "Medium",
+        "questStory": "Master the Stack.",
+        "questObjective": "Use properties of LIFO/FIFO to solve.",
+        "questControls": "push/pop or enqueue/dequeue",
+        "initialCodeJava": "class Solution {\n    public int solve() {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve():\n    return 1",
+        "initialCodeC": "int solve() {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Consider edge cases like empty stacks or queues.",
+            "Think about auxiliary data structures."
+        ]
+    },
+    {
+        "id": "world_3_6",
+        "worldId": "world_3",
+        "number": 6,
+        "name": "Stack Challenge 6",
+        "concept": "Stack",
+        "difficulty": "Medium",
+        "questStory": "Master the Stack.",
+        "questObjective": "Use properties of LIFO/FIFO to solve.",
+        "questControls": "push/pop or enqueue/dequeue",
+        "initialCodeJava": "class Solution {\n    public int solve() {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve():\n    return 1",
+        "initialCodeC": "int solve() {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Consider edge cases like empty stacks or queues.",
+            "Think about auxiliary data structures."
+        ]
+    },
+    {
+        "id": "world_3_7",
+        "worldId": "world_3",
+        "number": 7,
+        "name": "Queue Challenge 7",
+        "concept": "Queue",
+        "difficulty": "Medium",
+        "questStory": "Master the Queue.",
+        "questObjective": "Use properties of LIFO/FIFO to solve.",
+        "questControls": "push/pop or enqueue/dequeue",
+        "initialCodeJava": "class Solution {\n    public int solve() {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve():\n    return 1",
+        "initialCodeC": "int solve() {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Consider edge cases like empty stacks or queues.",
+            "Think about auxiliary data structures."
+        ]
+    },
+    {
+        "id": "world_3_8",
+        "worldId": "world_3",
+        "number": 8,
+        "name": "Queue Challenge 8",
+        "concept": "Queue",
+        "difficulty": "Medium",
+        "questStory": "Master the Queue.",
+        "questObjective": "Use properties of LIFO/FIFO to solve.",
+        "questControls": "push/pop or enqueue/dequeue",
+        "initialCodeJava": "class Solution {\n    public int solve() {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve():\n    return 1",
+        "initialCodeC": "int solve() {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Consider edge cases like empty stacks or queues.",
+            "Think about auxiliary data structures."
+        ]
+    },
+    {
+        "id": "world_3_9",
+        "worldId": "world_3",
+        "number": 9,
+        "name": "Queue Challenge 9",
+        "concept": "Queue",
+        "difficulty": "Medium",
+        "questStory": "Master the Queue.",
+        "questObjective": "Use properties of LIFO/FIFO to solve.",
+        "questControls": "push/pop or enqueue/dequeue",
+        "initialCodeJava": "class Solution {\n    public int solve() {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve():\n    return 1",
+        "initialCodeC": "int solve() {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Consider edge cases like empty stacks or queues.",
+            "Think about auxiliary data structures."
+        ]
+    },
+    {
+        "id": "world_3_10",
+        "worldId": "world_3",
+        "number": 10,
+        "name": "Queue Challenge 10",
+        "concept": "Queue",
+        "difficulty": "Medium",
+        "questStory": "Master the Queue.",
+        "questObjective": "Use properties of LIFO/FIFO to solve.",
+        "questControls": "push/pop or enqueue/dequeue",
+        "initialCodeJava": "class Solution {\n    public int solve() {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve():\n    return 1",
+        "initialCodeC": "int solve() {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Consider edge cases like empty stacks or queues.",
+            "Think about auxiliary data structures."
+        ]
+    },
+    {
+        "id": "world_4_1",
+        "worldId": "world_4",
+        "number": 1,
+        "name": "Linear Search",
+        "concept": "Searching",
+        "difficulty": "Easy",
+        "questStory": "Search item by item.",
+        "questObjective": "Find the target integer in an unsorted array and return its index. Return -1 if not found.",
+        "questControls": "loop",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] nums, int target) {\n        return -1;\n    }\n}",
+        "initialCodePython": "def solve(nums, target):\n    return -1",
+        "initialCodeC": "int solve(int* nums, int numsSize, int target) {\n    return -1;\n}",
+        "testCasesJson": "{\"input\":\"[4,2,7,1,9], 7\", \"output\":\"2\"}",
+        "hints": [
+            "Iterate from index 0 to length - 1.",
+            "Check if the current element equals the target."
+        ]
+    },
+    {
+        "id": "world_4_2",
+        "worldId": "world_4",
+        "number": 2,
+        "name": "First Occurrence",
+        "concept": "Searching",
+        "difficulty": "Easy",
+        "questStory": "Find the first match.",
+        "questObjective": "Return the index of the first occurrence of target in the array.",
+        "questControls": "loop, break",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] nums, int target) {\n        return -1;\n    }\n}",
+        "initialCodePython": "def solve(nums, target):\n    return -1",
+        "initialCodeC": "int solve(int* nums, int numsSize, int target) {\n    return -1;\n}",
+        "testCasesJson": "{\"input\":\"[2,2,2,3], 2\", \"output\":\"0\"}",
+        "hints": [
+            "The first time you find the target, return its index immediately."
+        ]
+    },
+    {
+        "id": "world_4_3",
+        "worldId": "world_4",
+        "number": 3,
+        "name": "Binary Search",
+        "concept": "Searching",
+        "difficulty": "Medium",
+        "questStory": "Implement Binary Search algorithm.",
+        "questObjective": "Given a sorted array of integers <code>nums</code> and a <code>target</code>, return its index. Otherwise, return -1.",
+        "questControls": "binarySearch()",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] nums, int target) {\n        return -1;\n    }\n}",
+        "initialCodePython": "def solve(nums, target):\n    return -1",
+        "initialCodeC": "int solve(int* nums, int numsSize, int target) {\n    return -1;\n}",
+        "testCasesJson": "{\"input\":\"[-1,0,3,5,9,12], 9\", \"output\":\"4\"}",
+        "hints": [
+            "Initialize left = 0, right = nums.length - 1.",
+            "Calculate mid. If nums[mid] is target, return mid. Else adjust bounds."
+        ]
+    },
+    {
+        "id": "world_4_4",
+        "worldId": "world_4",
+        "number": 4,
+        "name": "Search Challenge 4",
+        "concept": "Searching",
+        "difficulty": "Medium",
+        "questStory": "Advanced searching 4.",
+        "questObjective": "Find the peak element, or search in a rotated sorted array.",
+        "questControls": "binarySearch()",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] nums) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(nums):\n    return 1",
+        "initialCodeC": "int solve(int* nums, int numsSize) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Binary search can be used even if the array is not fully sorted, as long as half the array can be discarded.",
+            "Use mid = left + (right - left) / 2 to prevent integer overflow."
+        ]
+    },
+    {
+        "id": "world_4_5",
+        "worldId": "world_4",
+        "number": 5,
+        "name": "Search Challenge 5",
+        "concept": "Searching",
+        "difficulty": "Medium",
+        "questStory": "Advanced searching 5.",
+        "questObjective": "Find the peak element, or search in a rotated sorted array.",
+        "questControls": "binarySearch()",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] nums) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(nums):\n    return 1",
+        "initialCodeC": "int solve(int* nums, int numsSize) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Binary search can be used even if the array is not fully sorted, as long as half the array can be discarded.",
+            "Use mid = left + (right - left) / 2 to prevent integer overflow."
+        ]
+    },
+    {
+        "id": "world_4_6",
+        "worldId": "world_4",
+        "number": 6,
+        "name": "Search Challenge 6",
+        "concept": "Searching",
+        "difficulty": "Medium",
+        "questStory": "Advanced searching 6.",
+        "questObjective": "Find the peak element, or search in a rotated sorted array.",
+        "questControls": "binarySearch()",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] nums) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(nums):\n    return 1",
+        "initialCodeC": "int solve(int* nums, int numsSize) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Binary search can be used even if the array is not fully sorted, as long as half the array can be discarded.",
+            "Use mid = left + (right - left) / 2 to prevent integer overflow."
+        ]
+    },
+    {
+        "id": "world_4_7",
+        "worldId": "world_4",
+        "number": 7,
+        "name": "Search Challenge 7",
+        "concept": "Searching",
+        "difficulty": "Medium",
+        "questStory": "Advanced searching 7.",
+        "questObjective": "Find the peak element, or search in a rotated sorted array.",
+        "questControls": "binarySearch()",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] nums) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(nums):\n    return 1",
+        "initialCodeC": "int solve(int* nums, int numsSize) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Binary search can be used even if the array is not fully sorted, as long as half the array can be discarded.",
+            "Use mid = left + (right - left) / 2 to prevent integer overflow."
+        ]
+    },
+    {
+        "id": "world_4_8",
+        "worldId": "world_4",
+        "number": 8,
+        "name": "Search Challenge 8",
+        "concept": "Searching",
+        "difficulty": "Medium",
+        "questStory": "Advanced searching 8.",
+        "questObjective": "Find the peak element, or search in a rotated sorted array.",
+        "questControls": "binarySearch()",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] nums) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(nums):\n    return 1",
+        "initialCodeC": "int solve(int* nums, int numsSize) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Binary search can be used even if the array is not fully sorted, as long as half the array can be discarded.",
+            "Use mid = left + (right - left) / 2 to prevent integer overflow."
+        ]
+    },
+    {
+        "id": "world_4_9",
+        "worldId": "world_4",
+        "number": 9,
+        "name": "Search Challenge 9",
+        "concept": "Searching",
+        "difficulty": "Medium",
+        "questStory": "Advanced searching 9.",
+        "questObjective": "Find the peak element, or search in a rotated sorted array.",
+        "questControls": "binarySearch()",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] nums) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(nums):\n    return 1",
+        "initialCodeC": "int solve(int* nums, int numsSize) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Binary search can be used even if the array is not fully sorted, as long as half the array can be discarded.",
+            "Use mid = left + (right - left) / 2 to prevent integer overflow."
+        ]
+    },
+    {
+        "id": "world_4_10",
+        "worldId": "world_4",
+        "number": 10,
+        "name": "Search Challenge 10",
+        "concept": "Searching",
+        "difficulty": "Medium",
+        "questStory": "Advanced searching 10.",
+        "questObjective": "Find the peak element, or search in a rotated sorted array.",
+        "questControls": "binarySearch()",
+        "initialCodeJava": "class Solution {\n    public int solve(int[] nums) {\n        return 1;\n    }\n}",
+        "initialCodePython": "def solve(nums):\n    return 1",
+        "initialCodeC": "int solve(int* nums, int numsSize) {\n    return 1;\n}",
+        "testCasesJson": "{\"input\":\"[1]\", \"output\":\"1\"}",
+        "hints": [
+            "Binary search can be used even if the array is not fully sorted, as long as half the array can be discarded.",
+            "Use mid = left + (right - left) / 2 to prevent integer overflow."
+        ]
+    }
+]
